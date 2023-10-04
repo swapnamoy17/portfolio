@@ -1,0 +1,47 @@
+@import "../../_globalColor";
+
+#projects {
+  padding: 4rem 4rem 4rem 4rem;
+}
+
+#achievements {
+  width: auto;
+  padding: 4rem 4rem 4rem 4rem;
+  color: white !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: radial-gradient(farthest-corner at 40px 40px, #111 20%, #333 100%,#ddd 100%);
+}
+
+.achievement-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.achievement-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .achievement-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .achievement-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .achievement-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}

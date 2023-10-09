@@ -170,10 +170,17 @@ const workExperiences = {
       companylogo: require("./assets/images/persistent.jpeg"),
       date: "May 2021 – July 2023",
       desc: "Built a presales engagement portal as a Full-Stack Developer using React.Js, Redux and SpringBoot.",
-      descBullets: [
-        "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
-        "Automation of UI test cases using Codecept.js and wrote Junits for API"
-      ]
+      // descBullets: [
+      //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
+      //   "Automation of UI test cases using Codecept.js and wrote Junits for API"
+      // ]
+    },
+    {
+      role: "Research Intern",
+      company: `College of Engineering,\nPune`,
+      companylogo: require("./assets/images/coep.jpeg"),
+      date: "May 2020 – August 2020",
+      desc: "Collaborated closely with Dr. P. Rege on the project 'Natural Scene Text Detection'."
     },
     {
       role: "Summer Intern",

@@ -208,7 +208,7 @@ const projects = {
     {
       image: require("./assets/images/east.png"),
       title: "Natural Scene Text Detection and Recognition",
-      subtitle: "Developed an end-to-end system to detect and extract text instances from natural scene images.",
+      subtitle: "An end-to-end system to detect and extract text instances from natural scene images.",
       footerLink: [
         {
           name: "Github",
@@ -217,6 +217,39 @@ const projects = {
         {
           name: "Published Paper",
           url: "https://ieeexplore.ieee.org/abstract/document/9418116"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/medicare.jpg"),
+      title: "MediCare",
+      subtitle: "A versatile hospital web app catering to patients, doctors, and hospital administrators, offering real-time bed/room availability tracking and bookings, as well as doctor appointment scheduling.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/swapnamoy17/MediCare"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/speeechrecog3.jpeg"),
+      title: "Speaker Identification",
+      subtitle: "An end-to-end system for identifying the speaker based on the audio recorded by MFCC and GFCC feature extraction.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/swapnamoy17/Speaker-Identification"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/vpd.webp"),
+      title: "Vehicle Plate Detection",
+      subtitle: "An Automatic Vehicle Plate Detection system using Sobel Edge Detection on MATLAB.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/swapnamoy17/Vehicle-Plate-Detection"
         }
       ]
     }

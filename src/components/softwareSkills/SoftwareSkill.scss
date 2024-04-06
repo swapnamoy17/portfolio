@@ -10,6 +10,16 @@
   columns: 2;
 }
 
+.dev-icons-one-line {
+  columns: 1;
+}
+
+.dev-icons-one-line > img {
+  width: 25%;
+  height: 10%;
+  max-height: 3.125rem;
+}
+
 .skill-row {
   columns: 2;
   display: flex;
@@ -23,6 +33,15 @@
   align-items: baseline;
 }
 
+.dev-icons-one-line-div {
+  flex: 1; /* Flex grow to fill the space */
+}
+
+// .dev-icons-one-line-div > li {
+//   display: flex;
+//   flex-direction: column;
+// }
+
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
@@ -33,6 +52,20 @@
 .software-skill-inline > img {
   width: 50%;
   height: 10%;
+  max-height: 3.125rem;
+}
+
+.software-skill-inline-one > img {
+  min-width: 46px;
+  width: 25%;
+  min-height: 50px;
+  height: 10%;
+  max-height: 3.125rem;
+}
+
+.software-skill-inline-one > p {
+  color:  white !important;
+  font-size: 15px;
 }
 
 // .software-skill-inline > i {
@@ -44,8 +77,9 @@
 // }
 .software-skill-inline > p {
   color:  white !important;
-  font-size: 10px;
+  font-size: 15px;
 }
+
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }

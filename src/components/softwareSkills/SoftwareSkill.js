@@ -8,6 +8,26 @@ export default function SoftwareSkill() {
     <div>
       <div className="software-skills-main-div">
         <div className="skill-row">
+            <p className={"subTitle skills-text-subtitle"}>{"Cloud Technologies"}</p>
+        </div>       
+        <ul className="dev-icons dev-icons-one-line">
+          <div className="dev-icons-div">
+            {skillsSection.cloudSkills.map((skills, i) => {
+              return (
+                
+                <li
+                  key={i}
+                  className="software-skill-inline-one"
+                  name={skills.skillName}
+                >
+                  <img src={skills.imgPath} alt={skills.skillName} />
+                  <p>{skills.skillName}</p>
+                </li>
+              );
+            })}
+          </div>
+        </ul>
+        <div className="skill-row">
           <p className={"subTitle skills-text-subtitle"}>{"Languages"}</p>
           <p className={"subTitle skills-text-subtitle"}>{"Frontend"}</p>
         </div>       

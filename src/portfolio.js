@@ -2,15 +2,13 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/football.json";
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, 
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000 
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
@@ -117,6 +115,36 @@ const skillsSection = {
       imgPath: require("./assets/images/hadoop.png")
     }
   ],
+  cloudSkills:[
+    {
+      skillName: "AWS Lambda",
+      imgPath: require("./assets/images/lambda.png")
+    },
+    {
+      skillName: "Amazon S3",
+      imgPath: require("./assets/images/s3.png")
+    },
+    {
+      skillName: "Amazon Lex",
+      imgPath: require("./assets/images/lex.png")
+    },
+    {
+      skillName: "Amazon\nAPI Gateway",
+      imgPath: require("./assets/images/gateway.png")
+    },
+    {
+      skillName: "Amazon OpenSearch",
+      imgPath: require("./assets/images/opensearch.png")
+    },
+    {
+      skillName: "Amazon DynamoDB",
+      imgPath: require("./assets/images/dynamo.png")
+    },
+    {
+      skillName: "Amazon SQS",
+      imgPath: require("./assets/images/sqs.png")
+    }
+  ],
   otherSkills: [
       {
         skillName: "Openshift",
@@ -165,11 +193,22 @@ const educationInfo = {
 const workExperiences = {
   experience: [
     {
+      role: "IT Technologist Intern",
+      company: "New York University IT",
+      companylogo: require("./assets/images/nyu.jpeg"),
+      date: "Jan 2024 – ",
+      desc: "Part of the Data Enterprise Management team, developing a dashboard using AWS for reporting data from Snowflake data warehouses.",
+      // descBullets: [
+      //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
+      //   "Automation of UI test cases using Codecept.js and wrote Junits for API"
+      // ]
+    },
+    {
       role: "Software Engineer",
       company: "Persistent Systems",
       companylogo: require("./assets/images/persistent.jpeg"),
       date: "May 2021 – July 2023",
-      desc: "Built a presales engagement portal as a Full-Stack Developer using React.Js, Redux and SpringBoot.",
+      desc: "Built a presales engagement portal as a Full-Stack Developer using React.Js, Redux, SpringBoot, Docker and Openshift.",
       // descBullets: [
       //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
       //   "Automation of UI test cases using Codecept.js and wrote Junits for API"
@@ -180,14 +219,14 @@ const workExperiences = {
       company: `College of Engineering,\nPune`,
       companylogo: require("./assets/images/coep.jpeg"),
       date: "May 2020 – August 2020",
-      desc: "Collaborated closely with Dr. P. Rege on the project 'Natural Scene Text Detection'."
+      desc: "Focused on extracting multi-lingual text from natural scene images, outperforming existing Hindi Scene Text Detectors by ~12% through hyperparameter fine-tuning."
     },
     {
       role: "Summer Intern",
       company: "Reliance Jio Infocomm Ltd.",
       companylogo: require("./assets/images/jio.png"),
       date: "June 2019 – July 2019",
-      desc: "Worked on an NB-IoT Project - Communicating with various nodes in the network using ZigBee protocol and analysing the data on AZure IoT hub and AWS Cloud."
+      desc: "Built an end-to-end weather monitoring system, integrating AWS IoT, Elasticsearch, and Kibana for sensor data visualization and processing."
     }
   ]
 };
@@ -197,6 +236,28 @@ const workExperiences = {
 const projects = {
   title: "Research / Academic Projects",
   projects: [
+    {
+      image: require("./assets/images/chatbot.jpeg"),
+      title: "Chabot Conceirge",
+      subtitle: "Designed a chatbot for personalized restaurant suggestions, utilizing AWS Lambda, Lex, Opensearch, DynamoDB and APIGateway.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/swapnamoy17/Chatbot-Concierge"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gmaps.png"),
+      title: "Safe Route Web App",
+      subtitle: "Engineered a web platform, focusing on safer route identification, using Apache Spark to process and analyze NYC Crime Dataset.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/manavparikh01/BigDataProject"
+        }
+      ]
+    },
     {
       image: require("./assets/images/grf.jpeg"),
       title: "Google Research Football",

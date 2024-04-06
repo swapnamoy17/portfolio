@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d56ad795.css",
-    "main.js": "/portfolio/static/js/main.b43f4888.js",
+    "main.css": "/portfolio/static/css/main.d53a25cf.css",
+    "main.js": "/portfolio/static/js/main.6cd7543d.js",
     "static/media/profilephoto.png": "/portfolio/static/media/profilephoto.16b0ac5f6165403f89f4.png",
     "static/media/east.png": "/portfolio/static/media/east.7d47a25bdebb8d552997.png",
     "static/media/speeechrecog3.jpeg": "/portfolio/static/media/speeechrecog3.8d0480875bb6f9a2de62.jpeg",
@@ -14,6 +14,8 @@
     "static/media/c++.png": "/portfolio/static/media/c++.d8d9a2f879d60721c1ac.png",
     "static/media/tensorflow.png": "/portfolio/static/media/tensorflow.afdf6969db1b86450fd2.png",
     "static/media/persistent.jpeg": "/portfolio/static/media/persistent.e0c19e3e8fc352e06c93.jpeg",
+    "static/media/chatbot.jpeg": "/portfolio/static/media/chatbot.4d22a0dc3d02e9806035.jpeg",
+    "static/media/nyu.jpeg": "/portfolio/static/media/nyu.67f14cabcb993c6101c8.jpeg",
     "static/media/vpd.webp": "/portfolio/static/media/vpd.b68053c2ce37da713c64.webp",
     "static/media/pytorch.png": "/portfolio/static/media/pytorch.a363d972f1f02f625a50.png",
     "static/media/css.png": "/portfolio/static/media/css.ff1af5b2ddda96065cae.png",
@@ -31,11 +33,11 @@
     "static/media/java.png": "/portfolio/static/media/java.6c64373d3b7415758078.png",
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio/index.html",
-    "main.d56ad795.css.map": "/portfolio/static/css/main.d56ad795.css.map",
-    "main.b43f4888.js.map": "/portfolio/static/js/main.b43f4888.js.map"
+    "main.d53a25cf.css.map": "/portfolio/static/css/main.d53a25cf.css.map",
+    "main.6cd7543d.js.map": "/portfolio/static/js/main.6cd7543d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d56ad795.css",
-    "static/js/main.b43f4888.js"
+    "static/css/main.d53a25cf.css",
+    "static/js/main.6cd7543d.js"
   ]
 }

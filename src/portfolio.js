@@ -193,10 +193,10 @@ const educationInfo = {
   schools: [
     {
       schoolName: "New York University",
-      logo: require("./assets/images/nyu.png"),
+      logo: require("./assets/images/nyu2.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2023 - May 2025 (Expected)",
-      desc: "Courses: Cloud Computing, Machine Learning, Big Data, Design and Analysis of Algorithms",
+      desc: "CGPA: 3.89/4\n\nCourses: Cloud Computing, Machine Learning, Big Data, Design and Analysis of Algorithms",
     },
     {
       schoolName: "College of Engineering, Pune",
@@ -217,9 +217,20 @@ const workExperiences = {
     {
       role: "IT Technologist Intern",
       company: "New York University IT",
-      companylogo: require("./assets/images/nyu.jpeg"),
+      companylogo: require("./assets/images/nyu.png"),
       date: "Jan 2024 – ",
       desc: "Part of the Data Enterprise Management team, developing a dashboard using AWS for reporting data from Snowflake data warehouses.",
+      // descBullets: [
+      //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
+      //   "Automation of UI test cases using Codecept.js and wrote Junits for API"
+      // ]
+    },
+    {
+      role: "DevOps Engineer Intern",
+      company: "Blockhouse",
+      companylogo: require("./assets/images/blockhouse.jpeg"),
+      date: "Sept 2024 – Dec 2024",
+      desc: "Led the DevOps team, automating deployment pipelines and optimizing cloud infrastructure for improved efficiency and scalability.",
       // descBullets: [
       //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
       //   "Automation of UI test cases using Codecept.js and wrote Junits for API"
@@ -259,13 +270,13 @@ const projects = {
   title: "Research / Academic Projects",
   projects: [
     {
-      image: require("./assets/images/chatbot.jpeg"),
-      title: "Chabot Conceirge",
-      subtitle: "Designed a chatbot for personalized restaurant suggestions, utilizing AWS Lambda, Lex, Opensearch, DynamoDB and APIGateway.",
+      image: require("./assets/images/elearning.webp"),
+      title: "E-Learning Platform",
+      subtitle: "Developed a serverless SaaS online learning platform with scalable video content delivery via S3, and CloudFront.",
       footerLink: [
         {
           name: "Github",
-          url: "https://github.com/swapnamoy17/Chatbot-Concierge"
+          url: "https://github.com/swapnamoy17/EduNimbus"
         }
       ]
     },

@@ -98,7 +98,7 @@ export default function SoftwareSkill() {
         </ul>
         <div className="skill-row">
           <p className={"subTitle skills-text-subtitle"}>{"Databases"}</p>
-          <p className={"subTitle skills-text-subtitle"}>{"Other Tools"}</p>
+          <p className={"subTitle skills-text-subtitle"}>{"Dev Ops"}</p>
         </div>
         <ul className="dev-icons">
           <div className="dev-icons-div">
@@ -116,11 +116,31 @@ export default function SoftwareSkill() {
             })}
           </div>
           <div className="dev-icons-div">
-            {skillsSection.otherSkills.map((skills, i) => {
+            {skillsSection.devopsSkills.map((skills, i) => {
               return (
                 <li
                   key={i}
                   className="software-skill-inline"
+                  name={skills.skillName}
+                >
+                  <img src={skills.imgPath} alt={skills.skillName} />
+                  <p>{skills.skillName}</p>
+                </li>
+              );
+            })}
+          </div>
+        </ul>
+        <div className="skill-row">
+            <p className={"subTitle skills-text-subtitle"}>{"Other Skills"}</p>
+        </div>       
+        <ul className="dev-icons dev-icons-one-line">
+          <div className="dev-icons-div">
+            {skillsSection.otherSkills.map((skills, i) => {
+              return (
+                
+                <li
+                  key={i}
+                  className="software-skill-inline-one"
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />

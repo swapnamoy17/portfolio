@@ -18,7 +18,7 @@ const greeting = {
     "NYU MSCS'25 | Ex-Persistent Systems | COEP'21"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1GiBzXjONOkY8Bhvwuq9ACWIC_0HTsbbW/view?usp=sharing",
+    "https://drive.google.com/file/d/1Lq1wI4EI3xjD-OZ2WoNgbR9k-2kMkTCg/view?usp=sharing",
 };
 
 // Social Media Links
@@ -66,11 +66,11 @@ const skillsSection = {
       },
       {
         skillName: "HTML-5",
-        imgPath: require("./assets/images/html.png")
+        imgPath: require("./assets/images/html5.png")
       },
       {
         skillName: "css3",
-        imgPath: require("./assets/images/css.png")
+        imgPath: require("./assets/images/css3.png")
       },
       {
         skillName: "sass",
@@ -83,8 +83,12 @@ const skillsSection = {
       imgPath: require("./assets/images/nodejs.png")
     },
     {
-      skillName: "SprinBoot",
-      imgPath: require("./assets/images/springboot.png")
+      skillName: "Spring Boot",
+      imgPath: require("./assets/images/spring.png")
+    },
+    {
+      skillName: "Django",
+      imgPath: require("./assets/images/django.png")
     },
   ],
   databaseSkills:[
@@ -94,7 +98,7 @@ const skillsSection = {
     },
     {
       skillName: "MongoDB",
-      imgPath: require("./assets/images/mongodb.png")
+      imgPath: require("./assets/images/mongo.png")
     },
     {
       skillName: "MySQL",
@@ -104,24 +108,28 @@ const skillsSection = {
   mlSkills:[
     {
       skillName: "TensorFlow",
-      imgPath: require("./assets/images/tensorflow.png")
+      imgPath: require("./assets/images/tf.png")
     },
     {
       skillName: "PyTorch",
-      imgPath: require("./assets/images/pytorch.png")
+      imgPath: require("./assets/images/pyt.png")
     },
     {
       skillName: "Hadoop",
       imgPath: require("./assets/images/hadoop.png")
+    },
+    {
+      skillName: "Spark",
+      imgPath: require("./assets/images/spark.png")
     }
   ],
   cloudSkills:[
     {
-      skillName: "AWS Lambda",
+      skillName: "Lambda",
       imgPath: require("./assets/images/lambda.png")
     },
     {
-      skillName: "Amazon S3",
+      skillName: "S3",
       imgPath: require("./assets/images/s3.png")
     },
     {
@@ -129,38 +137,52 @@ const skillsSection = {
       imgPath: require("./assets/images/lex.png")
     },
     {
-      skillName: "Amazon\nAPI Gateway",
+      skillName: "EC2",
+      imgPath: require("./assets/images/ec2.png")
+    },
+    {
+      skillName: "API Gateway",
       imgPath: require("./assets/images/gateway.png")
     },
     {
-      skillName: "Amazon OpenSearch",
+      skillName: "OpenSearch",
       imgPath: require("./assets/images/opensearch.png")
     },
     {
-      skillName: "Amazon DynamoDB",
+      skillName: "DynamoDB",
       imgPath: require("./assets/images/dynamo.png")
     },
     {
-      skillName: "Amazon SQS",
+      skillName: "SQS",
       imgPath: require("./assets/images/sqs.png")
     }
   ],
-  otherSkills: [
+  devopsSkills: [
       {
-        skillName: "Openshift",
-        imgPath: require("./assets/images/openshift.png")
-      },
-      {
-        skillName: "Git",
-        imgPath: require("./assets/images/git.png")
+        skillName: "Docker",
+        imgPath: require("./assets/images/docker.png")
       },
       {
         skillName: "Travis CI",
         imgPath: require("./assets/images/travisci.png")
       },
       {
-        skillName: "Docker",
-        imgPath: require("./assets/images/docker.png")
+        skillName: "Kubernetes",
+        imgPath: require("./assets/images/kube.png")
+      },
+      {
+        skillName: "Openshift",
+        imgPath: require("./assets/images/openshift.png")
+      }
+  ],
+  otherSkills: [
+      {
+        skillName: "Git",
+        imgPath: require("./assets/images/git.png")
+      },
+      {
+        skillName: "Elasticsearch",
+        imgPath: require("./assets/images/elasticsearch.png")
       }
   ]
 };
@@ -174,7 +196,7 @@ const educationInfo = {
       logo: require("./assets/images/nyu.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2023 - May 2025 (Expected)",
-      desc: "Courses: Machine Learning, Big Data, Design and Analysis of Algorithms",
+      desc: "Courses: Cloud Computing, Machine Learning, Big Data, Design and Analysis of Algorithms",
     },
     {
       schoolName: "College of Engineering, Pune",

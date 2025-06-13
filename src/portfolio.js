@@ -195,7 +195,7 @@ const educationInfo = {
       schoolName: "New York University",
       logo: require("./assets/images/nyu2.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2023 - May 2025 (Expected)",
+      duration: "September 2023 - May 2025",
       desc: "CGPA: 3.89/4\n\nCourses: Cloud Computing, Machine Learning, Big Data, Design and Analysis of Algorithms",
     },
     {
@@ -215,22 +215,22 @@ const educationInfo = {
 const workExperiences = {
   experience: [
     {
-      role: "IT Technologist Intern",
-      company: "New York University IT",
-      companylogo: require("./assets/images/nyu.png"),
-      date: "Jan 2024 – ",
-      desc: "Part of the Data Enterprise Management team, developing a dashboard using AWS for reporting data from Snowflake data warehouses.",
+      role: "DevOps Engineer Intern",
+      company: "Blockhouse",
+      companylogo: require("./assets/images/blockhouse.jpeg"),
+      date: "Sept 2024 – Dec 2024",
+      desc: "Led the DevOps team, automating deployment pipelines and optimizing cloud infrastructure for improved efficiency and scalability.",
       // descBullets: [
       //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
       //   "Automation of UI test cases using Codecept.js and wrote Junits for API"
       // ]
     },
     {
-      role: "DevOps Engineer Intern",
-      company: "Blockhouse",
-      companylogo: require("./assets/images/blockhouse.jpeg"),
-      date: "Sept 2024 – Dec 2024",
-      desc: "Led the DevOps team, automating deployment pipelines and optimizing cloud infrastructure for improved efficiency and scalability.",
+      role: "IT Technologist Intern",
+      company: "New York University IT",
+      companylogo: require("./assets/images/nyu.png"),
+      date: "Jan 2024 – May 2025",
+      desc: "Part of the Data Enterprise Management team, developing a dashboard using AWS for reporting data from Snowflake data warehouses.",
       // descBullets: [
       //   "Developed scalable and reliable solutions with the help of CI/CD tools like Travis CI and Openshift.",
       //   "Automation of UI test cases using Codecept.js and wrote Junits for API"

@@ -18,7 +18,7 @@ const greeting = {
     "NYU MSCS'25 | Ex-Persistent Systems | COEP'21"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Lq1wI4EI3xjD-OZ2WoNgbR9k-2kMkTCg/view?usp=sharing",
+    "https://drive.google.com/file/d/1xHl8lyd7bAtWrNI4YucIApaDHH0ucI2x/view?usp=sharing",
 };
 
 // Social Media Links

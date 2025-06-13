@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d53a25cf.css",
-    "main.js": "/portfolio/static/js/main.6a9fa6c1.js",
-    "static/media/profilephoto.png": "/portfolio/static/media/profilephoto.16b0ac5f6165403f89f4.png",
+    "main.css": "/portfolio/static/css/main.b0c9e4a1.css",
+    "main.js": "/portfolio/static/js/main.6f105ab7.js",
     "static/media/east.png": "/portfolio/static/media/east.7d47a25bdebb8d552997.png",
     "static/media/speeechrecog3.jpeg": "/portfolio/static/media/speeechrecog3.8d0480875bb6f9a2de62.jpeg",
     "static/media/mongo.png": "/portfolio/static/media/mongo.8a0580f076bbad4ff0c2.png",
@@ -28,6 +27,7 @@
     "static/media/pyt.png": "/portfolio/static/media/pyt.1de8fde83cdf836da4d2.png",
     "static/media/django.png": "/portfolio/static/media/django.d711f2eb00aab808cb3e.png",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/profilephoto.jpeg": "/portfolio/static/media/profilephoto.a86b27acded58c49be24.jpeg",
     "static/media/medicare.jpg": "/portfolio/static/media/medicare.7eb521c06b3b05c00087.jpg",
     "static/media/c++.png": "/portfolio/static/media/c++.d8d9a2f879d60721c1ac.png",
     "static/media/persistent.jpeg": "/portfolio/static/media/persistent.e0c19e3e8fc352e06c93.jpeg",
@@ -43,11 +43,11 @@
     "static/media/java.png": "/portfolio/static/media/java.6c64373d3b7415758078.png",
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio/index.html",
-    "main.d53a25cf.css.map": "/portfolio/static/css/main.d53a25cf.css.map",
-    "main.6a9fa6c1.js.map": "/portfolio/static/js/main.6a9fa6c1.js.map"
+    "main.b0c9e4a1.css.map": "/portfolio/static/css/main.b0c9e4a1.css.map",
+    "main.6f105ab7.js.map": "/portfolio/static/js/main.6f105ab7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d53a25cf.css",
-    "static/js/main.6a9fa6c1.js"
+    "static/css/main.b0c9e4a1.css",
+    "static/js/main.6f105ab7.js"
   ]
 }

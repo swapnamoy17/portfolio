@@ -1,5 +1,6 @@
 #experience {
   padding: 4rem 4rem 4rem 4rem;
+  background-image: radial-gradient(farthest-corner at 40px 40px, #111 20%, #333 100%,#ddd 100%);
 }
 
 .experience-cards-div {
@@ -11,6 +12,7 @@
 .experience-heading {
   font-size: 56px;
   font-weight: 400;
+  margin-top: 0;
 }
 
 .experience-container {
@@ -18,7 +20,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 
 .experience-container > * {
@@ -30,6 +32,7 @@
 @media (max-width: 1380px) {
   .experience-heading {
     font-size: 40px;
+    color: white;
   }
 }
 

@@ -38,8 +38,8 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
-            <Skills />
             <WorkExperience />
+            <Skills />
             <Education />
             <Achievement type={"projects"}/>
             <Achievement />

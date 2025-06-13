@@ -63,9 +63,32 @@
   max-height: 3.125rem;
 }
 
-.software-skill-inline-one > p {
+.software-skill-inline-one {
+  position: relative;
+}
+
+.software-skill-inline-one > span {
   color:  white !important;
   font-size: 15px;
+  visibility: hidden;
+  background-color: #333;
+  color:gray;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%; /* position above image */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.software-skill-inline-one > img:hover + span {
+  visibility: visible;
+  opacity: 1;
 }
 
 // .software-skill-inline > i {
@@ -75,9 +98,32 @@
 // .software-skill-inline > i:hover {
 //   color: $skillsColor;
 // }
-.software-skill-inline > p {
+.software-skill-inline {
+  position: relative;
+}
+
+.software-skill-inline > span {
   color:  white !important;
   font-size: 15px;
+  visibility: hidden;
+  background-color: #333;
+  color:gray;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%; /* position above image */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.software-skill-inline > img:hover + span {
+  visibility: visible;
+  opacity: 1;
 }
 
 .software-skill-inline > i:hover ~ p {

@@ -21,7 +21,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -42,7 +42,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -56,7 +56,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -76,7 +76,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -90,7 +90,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -110,7 +110,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -124,7 +124,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}
@@ -144,7 +144,7 @@ export default function SoftwareSkill() {
                   name={skills.skillName}
                 >
                   <img src={skills.imgPath} alt={skills.skillName} />
-                  <p>{skills.skillName}</p>
+                  <span>{skills.skillName}</span>
                 </li>
               );
             })}

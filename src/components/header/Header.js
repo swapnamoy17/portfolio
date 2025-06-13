@@ -22,8 +22,8 @@ function Header() {
           <span className={"navicon"}></span>
         </label>
         <ul className={"menu"}>
-          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Work Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#achievements">Achievements</a></li>
